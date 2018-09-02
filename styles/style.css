@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/vic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+    height: 90px;
+    margin: 5px 0;
+    float: left;
+    display: block;
+    background-color: #333333;
+    color: #F4F7FA;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+a.active, .nav a:hover{
+    background-color: #0AB259;
+    color: #F4F7FA;
+    width: 100%;
+}
+
+.a{
+    width: 75%;
+}
+
+.b{
+    width: 72%;
+}
+
+.c{
+    width: 80%;
+}
+
+.d{
+    width: 85%;
+}
+
+.content{
+    position: absolute;
+    width: 1000px;
+    min-height: 500px;
+    height: auto;
+    /* background-color: #0AB259; */
+    right: 0;
+    top: 10%;
+}
+
+.home{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #F4F7FA;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+
+.home h1{
+    font-size: 90px;
+    padding-right: 90px;
+    border-bottom: 1.5px solid #F4F7FA;
+}
+
+.home h2{
+    font-size: 40px;
+    font-weight: solid;
+}
+
+.home h3{
+    font-size: 28px;
+    padding: 5px 0;
+    
+    padding-bottom: 5px;
+    color: #333333;
+}
+
+.about{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #F4F7FA;
+    font-family: sans-serif;
+    padding: 0 60px;
+    display: none;
+}
+
+.about p{
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.portfolio{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #F4F7FA;
+    padding: 0 60px;
+    display: none;
+
+}
+
+.portfolio .image{
+    width: 29%;
+    margin: 2%;
+    border: 3px;
+    float: left;
+}
+
+.image img{
+    width: 100%;
+   
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+.image img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.contact{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #F4F7FA;
+    padding: 0 60px;
+    display: none;
+}
+
+.inputtext{
+    width: 55%;
+    height: 65px;
+    border: 3px solid #333333;
+    color: #F4F7FA;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.inputmessage{
+    width: 55%;
+    height: 135px;
+    border: 3px solid #333333;
+    color: #F4F7FA;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+}
+
+.submitbutton{
+    width: 55%;
+    height: 65px;
+    border: 3px solid #333333;
+    color: #F4F7FA;
+    background-color: #0AB259;
+    font-size: 28px;
+    border: none;
+    float: left;
+    clear: both;
+    margin-top: 25px;
+}
+
+
+

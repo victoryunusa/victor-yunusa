@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- meta data -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Site Title -->
+      <title>Victor Yunusa</title>
+
+      <!-- Font Family -->
+      <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|Titillium+Web" rel="stylesheet">
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="styles/style.css">
+
+  </head>
+  <body>
+   
+    <div class="background">
+
+      <div class="nav">
+          <a class="a active" href="#">HOME</a>
+          <a class="b" href="#">ABOUT</a>
+          <a class="c" href="#">PORTFOLIO</a>
+          <a class="d" href="#">CONTACT</a>
+      </div>
+      <div class="content">
+          <div class="home">
+              <h2>Hi,</h2>
+              <h1>I am Victor Yunusa</h1>
+              <h3>I am an Entrepreneur in Training</h3>
+          </div>
+          <div class="about">
+               
+                <p>
+                    It is a long established fact that a reader will be distracted by the 
+                    readable content of a page when looking at its layout. The point of using 
+                    Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                    as opposed to using 'Content here, content here', making it look like readable English.  <br>
+                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
+                    model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.  <br>
+                    Various versions have evolved over the years, 
+                    sometimes by accident, sometimes on purpose (injected humour and the like). 
+                </p>
+                <p>
+                    It is a long established fact that a reader will be distracted by the 
+                    readable content of a page when looking at its layout. The point of using  
+                    Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                    as opposed to using 'Content here, content here', making it look like readable English.  <br>
+                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
+                    model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.  <br>
+                   
+                </p>
+                <p style="font-weight:bold; font-size: 24px;" ondblclick="myFunction2()">Doubleclick this paragraph to see more...</p>
+
+                <p id="demo2"></p>
+
+                <input type="button" class="submitbutton" onclick="myFunction()" value="Double Click Me">
+
+                <p id="demo"></p>
+          </div>
+          <div class="portfolio">
+                <div class="image">
+                    <img src="images/sawa.jpg">
+                </div>
+                <div class="image">
+                    <img src="images/supreme.jpg">
+                </div>
+                <div class="image">
+                    <img src="images/oficon.jpg">
+                </div>
+                <div class="image">
+                    <img src="images/tritme.jpg">
+                </div>
+                <div class="image">
+                    <img src="images/vibesshare.jpg">
+                </div>
+                <div class="image">
+                    <img src="images/jemafrik.png">
+                </div>
+               
+          </div>
+          <div class="contact">
+                <div class="contactform">
+                    <form>
+                        <input type="text" class="inputtext" placeholder="Full Name">
+                        <input type="text" class="inputtext"  placeholder="Email">
+                        <input type="text" class="inputtext"  placeholder="Subject">
+                        <textarea cols="4" rows="6" type="text" class="inputmessage"></textarea>
+                        <input type="submit" class="submitbutton" value="Submit">
+                    </form>
+                </div>
+          </div>
+      </div>
+      
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript">
+        function myFunction() {
+            var txt;
+            if (confirm("Press a button!")) {
+                txt = "You pressed OK!";
+            } else {
+                txt = "You pressed Cancel!";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
+
+  </body>
+</html>
