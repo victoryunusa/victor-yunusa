@@ -1,3 +1,9 @@
+
+
+function myFunction2() {
+    document.getElementById("demo2").innerHTML = "I have collaborated with a team of web developers to develop the Judiciary Payroll and Funds Management System using HTML5, CSS, PHP (Laravel), MySQL, and jQuery. Lead a team of four that developed a custom Human Resource system for the National Industrial Court of Nigeria. ";
+}
+
 $(document).ready(function(){
 
     $('a').click(function(){
@@ -46,7 +52,3 @@ $(document).ready(function(){
     
 
 });
-
-function myFunction2() {
-    document.getElementById("demo2").innerHTML = "Hello World";
-}
